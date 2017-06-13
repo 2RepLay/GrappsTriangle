@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nikitayankov.grappstriangle.MainActivity">
+
+    <com.nikitayankov.grappstriangle.TriangleView
+        android:id="@+id/main_triangle_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="16dp"
+        app:fillColor="@color/colorPrimaryDark"
+        app:drawablePoint="@drawable/dot"/>
+
+    <TextView
+        android:id="@+id/main_last_triangle_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/last_triangle_area"/>
+
+    <TextView
+        android:id="@+id/main_next_area_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/next_area_update_in"/>
+</LinearLayout>

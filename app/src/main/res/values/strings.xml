@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GrappsTriangle</string>
+    <string name="last_triangle_area">Last triangle area: %1$s px</string>
+    <string name="next_area_update_in">Next area update in: %1$s…</string>
+</resources>
